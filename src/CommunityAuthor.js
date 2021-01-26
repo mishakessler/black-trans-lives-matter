@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CommunityAuthor = ({ name, imageUrl, twitterUrl, githubUrl, description }) => {
+const CommunityAuthor = ({ name, role, imageUrl, twitterUrl, instagramUrl, githubUrl, description }) => {
   return (
     <>
-      <h2 className="communitySection">About the community author</h2>
+      <h3 className="communitySection">{role}</h3>
       <div className="authorSection">
         <div className="authorImg">
           <img src={imageUrl} alt={name} />
@@ -13,20 +13,29 @@ const CommunityAuthor = ({ name, imageUrl, twitterUrl, githubUrl, description })
             <strong>{name}</strong>
             {twitterUrl ? (
               <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
-                <img
+                {/* <img
                   src="https://storage.googleapis.com/graphql-engine-cdn.hasura.io/learn-hasura/assets/social-media/twitter-icon.svg"
                   alt="Twitter Icon"
                   aria-label="Twitter"
-                />
+                /> */}
+              </a>
+            ) : null}
+            {instagramUrl ? (
+              <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
+                {/* <img
+                  src="https://storage.googleapis.com/graphql-engine-cdn.hasura.io/learn-hasura/assets/social-media/twitter-icon.svg"
+                  alt="Twitter Icon"
+                  aria-label="Twitter"
+                /> */}
               </a>
             ) : null}
             {githubUrl ? (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-                <img
+                {/* <img
                   src="https://storage.googleapis.com/graphql-engine-cdn.hasura.io/learn-hasura/assets/social-media/github-icon.svg"
                   alt="Github Icon"
                   aria-label="Github"
-                />
+                /> */}
               </a>
             ) : null}
           </div>
