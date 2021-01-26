@@ -286,8 +286,8 @@ export const baseStyles = css`
   }
 
   .navBarBrand img {
-    width: 120px;
-    margin-right: 6px;
+    width: 320px;
+    margin-right: 16px;
     display: inline-block;
   }
   .navBarUL li {
