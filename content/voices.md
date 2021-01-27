@@ -4,4 +4,4 @@ metaTitle: 'Voices'
 metaDescription: 'Stand in solidarity by promoting black trans voices.'
 ---
 
-# Voices
+# Voices of Black Trans Folks
