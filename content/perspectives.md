@@ -1,7 +1,7 @@
 ---
-title: 'Appreciate Perspectives'
+title: 'Honor Perspectives'
 metaTitle: 'Perspectives'
-metaDescription: 'Stand in solidarity by acknowledging and appreciating black trans perspectives.'
+metaDescription: 'Stand in solidarity by acknowledging and honoring black trans perspectives.'
 ---
 
 # Media
