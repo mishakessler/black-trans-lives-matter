@@ -4,4 +4,4 @@ metaTitle: 'Perspectives'
 metaDescription: 'Stand in solidarity by acknowledging and honoring black trans perspectives.'
 ---
 
-# Media
+# Media By, For, & About Black Trans Folks

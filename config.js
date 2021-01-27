@@ -11,9 +11,9 @@ const config = {
     title:
       "<a href='https://blacktranslivesmatter.co'>Actions & Resources for Solidarity</a>",
     githubUrl: 'https://github.com/mishakessler/black-trans-lives-matter',
-    helpUrl: 'https://github.com/mishakessler/black-trans-lives-matter',
+    helpUrl: '',
     tweetText: '',
-    links: [{ text: 'Testing', link: '' }],
+    links: [{ text: '', link: '' }],
     search: {
       enabled: true,
       indexName: '',
@@ -28,6 +28,7 @@ const config = {
       '/perspectives',
       '/voices',
       '/events',
+      '/businesses',
       '/resources',
     ],
     collapsedNav: [
@@ -35,7 +36,8 @@ const config = {
       '/perspectives',
       '/voices',
       '/events',
-      '/resources',   
+      '/businesses',
+      '/resources', 
     ],
     links: [
       { text: 'Contribute', link: 'https://github.com/mishakessler/black-trans-lives-matter' },

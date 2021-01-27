@@ -4,7 +4,7 @@ metaTitle: 'Resources'
 metaDescription: 'Stand in solidarity by sharing black trans resources.'
 ---
 
-# Resources
+# Resources for Black Trans Folks
 
 - [Callen-Lorde Community Health](https://callen-lorde.org/)
 - [On Name Changes, Immigration Rights, Healthcare Rights](https://srlp.org/resources/) (Sylvia Rivera Law Project)

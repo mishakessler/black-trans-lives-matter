@@ -1,7 +1,7 @@
 ---
 title: 'Support Small Businesses'
 metaTitle: 'Businesses'
-metaDescription: 'Stand in solidarity by sharing black trans resources.'
+metaDescription: 'Stand in solidarity by supporting black trans businesses.'
 ---
 
 # Black Trans Owned Businesses
