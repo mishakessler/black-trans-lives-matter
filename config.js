@@ -15,7 +15,7 @@ const config = {
     tweetText: '',
     links: [{ text: '', link: '' }],
     search: {
-      enabled: true,
+      enabled: false,
       indexName: '',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
@@ -24,25 +24,23 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/',
       '/perspectives',
       '/voices',
+      '/resources',
       '/events',
       '/businesses',
-      '/resources',
     ],
     collapsedNav: [
-      '/',
       '/perspectives',
       '/voices',
+      '/resources',
       '/events',
       '/businesses',
-      '/resources', 
     ],
     links: [
       { text: 'Contribute', link: 'https://github.com/mishakessler/black-trans-lives-matter' },
       { text: 'Give Feedback', link: 'mailto:readytoactfeedback@gmail.com' }],
-    frontline: true,
+    frontline: false,
     ignoreIndex: true,
     title:
       "<div class='greenCircle'></div>honor black trans lives<div class='greenCircle'></div>",
